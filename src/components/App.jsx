@@ -46,7 +46,7 @@ export const App = () => {
             neutral={feedback.neutral}
             bad={feedback.bad}
             total={total}
-            positivePercentage={countPositivePercentage}
+            positivePercentage={countPositivePercentage()}
           />
         </Section>
       ) : (
